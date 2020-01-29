@@ -6,7 +6,6 @@ const CreateVacation = (props) => {
   // line 10- onChange={event => setDate(event.target.value)} value={date}
   //console.log(props)
   const createVacation = event => {
-    //console.log(event)
     event.preventDefault()
     let newVaca = {}
     newVaca['id'] = props.vacations.length + 1

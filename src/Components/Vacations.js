@@ -2,8 +2,6 @@ import React from "react"
 import moment from 'moment';
 
 const RenderVacations = (props) => {
-  //const [date, setDate] = useState(moment().format("MM/DD/YYYY"))
-  // line 10- onChange={event => setDate(event.target.value)} value={date}
 
   const renderVacations = () => {
     if (props.vacations.length === 0) {
